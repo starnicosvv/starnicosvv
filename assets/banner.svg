@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Adolfo Sanabria, Backend Developer</title>
+  <desc id="desc">Banner de perfil: Adolfo Sanabria, Backend Developer, San Bernardino, Paraguay</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1f2937" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)" opacity="0.35"/>
+  <circle cx="1060" cy="60" r="150" fill="#2dd4bf" opacity="0.06"/>
+  <circle cx="1130" cy="250" r="120" fill="#60a5fa" opacity="0.05"/>
+
+  <rect x="64" y="90" width="6" height="122" rx="3" fill="url(#accent)"/>
+
+  <text x="96" y="142" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#f9fafb">Adolfo Sanabria</text>
+  <text x="98" y="188" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#2dd4bf">Backend Developer</text>
+  <text x="98" y="224" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" fill="#9ca3af">San Bernardino, Paraguay</text>
+
+  <g opacity="0.95">
+    <rect x="920" y="88" width="212" height="124" rx="12" fill="#0b1220" stroke="#1f2937" stroke-width="1.5"/>
+    <circle cx="944" cy="112" r="5" fill="#f87171"/>
+    <circle cx="962" cy="112" r="5" fill="#fbbf24"/>
+    <circle cx="980" cy="112" r="5" fill="#34d399"/>
+    <rect x="944" y="138" width="118" height="8" rx="4" fill="#1f2937"/>
+    <rect x="944" y="158" width="150" height="8" rx="4" fill="#1f2937"/>
+    <rect x="944" y="178" width="92" height="8" rx="4" fill="url(#accent)"/>
+  </g>
+</svg>
